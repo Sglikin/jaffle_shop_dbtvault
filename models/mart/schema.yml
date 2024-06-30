@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mart
+    database: postgres
+    schema: dbt
+    tables:
+      - name: weekly_order_status
+      - name: d_pit_customer_details
